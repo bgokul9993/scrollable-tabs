@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.addTabIcon{
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3e%3cpath class='cls-1' d='M11,5H7V1A1,1,0,0,0,5,1V5H1A1,1,0,0,0,1,7H5v4a1,1,0,0,0,2,0V7h4a1,1,0,0,0,0-2Z'/%3e%3c/svg%3e");
+  height: 12px;
+  width: 12px;
+  min-height: 12px;
+  min-width: 12px;
+}
+
+.tab-list-container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.rename-tab input {
+  border: 1px solid transparent !important;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  -webkit-text-fill-color: #183247;
+  color:#183247;
+  width: 162px !important;
+  text-overflow: ellipsis;
+  padding: 11px 16px;
+  margin: 0;
+}
+
+.rename-tab input:focus {
+  background: #fff !important;
+  border: 2px solid #206dd1 !important;
+  border-radius: 4px !important;
+}
